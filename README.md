@@ -1,158 +1,159 @@
-#App Store Revenue Analysis Project
-##📌 Project Title
+App Store Revenue Analysis Project
 
-###Analyzing Worldwide App Store Top Apps Revenue (Sep 25, 2024 – Sep 24, 2025)
+📌 Project Title
 
-##🎯 Purpose
+Analyzing Worldwide App Store Top Apps Revenue (Sep 25, 2024 – Sep 24, 2025)
 
-###This project provides actionable insights from App Store top apps revenue data to give the recommended supports the Business Development (BD) team.
-###Key objectives:
+🎯 Purpose
 
-####Identify high-revenue publishers.
+This project provides actionable insights from App Store top apps revenue data to give the recommended supports the Business Development (BD) team.
+Key objectives:
 
-####Detect breakout apps with strong growth.
+Identify high-revenue publishers.
 
-####Map category & sub-genre trends.
+Detect breakout apps with strong growth.
 
-####Inform partnership targeting, cooperation opportunities, and long-term BD strategy
+Map category & sub-genre trends.
 
-##✅ Expected Outcomes
+Inform partnership targeting, cooperation opportunities, and long-term BD strategy
 
-###Structured data cleaning & processing pipeline (Power BI / Python).
+✅ Expected Outcomes
 
-###Exploratory Data Analysis (EDA) covering revenue distribution, concentration, and category splits.
+Structured data cleaning & processing pipeline (Power BI / Python).
 
-###Interactive dashboards & visual storytelling assets for BD and strategy presentations.
+Exploratory Data Analysis (EDA) covering revenue distribution, concentration, and category splits.
 
-###Framework for monthly/quarterly reporting.
+Interactive dashboards & visual storytelling assets for BD and strategy presentations.
 
-###Prioritization matrix for BD teams: highlight top revenue partners, fast-growth apps, and category opportunities
+Framework for monthly/quarterly reporting.
 
+Prioritization matrix for BD teams: highlight top revenue partners, fast-growth apps, and category opportunities
 
-##📊 Dataset
 
-###Source: Sensor Tower – Worldwide App Store Top Apps Revenue (Sep 2024 – Sep 2025).
+📊 Dataset
 
-###Format: CSV (UTF-16, tab-delimited).
+Source: Sensor Tower – Worldwide App Store Top Apps Revenue (Sep 2024 – Sep 2025).
 
-###Scope: Top apps worldwide with revenue, downloads, DAU, RPD, ARPDAU, sub-genre, monetization model, publisher country, and release date
+Format: CSV (UTF-16, tab-delimited).
 
+Scope: Top apps worldwide with revenue, downloads, DAU, RPD, ARPDAU, sub-genre, monetization model, publisher country, and release date
 
-##🔧 Analysis Plan
-###1. Data Cleaning
 
-####Import CSV with UTF-16 encoding.
+🔧 Analysis Plan
+1. Data Cleaning
 
-####Standardize fields: Game Name, Publisher Name, Category, Sub-genre.
+Import CSV with UTF-16 encoding.
 
-####Convert revenue/downloads into numeric fields.
+Standardize fields: Game Name, Publisher Name, Category, Sub-genre.
 
-####Handle missing/null values.
+Convert revenue/downloads into numeric fields.
 
-####Change the date data type from text to date.
+Handle missing/null values.
 
-###2. Exploratory Data Analysis
+Change the date data type from text to date.
 
-####Revenue distribution across apps/publishers.
+2. Exploratory Data Analysis
 
-####Identify Top 10 apps/publishers by revenue.
+Revenue distribution across apps/publishers.
 
-####Calculate concentration ratios (Top 5/10 share, HHI).
+Identify Top 10 apps/publishers by revenue.
 
-####Analyze sub-genre splits and product models (Mid-core, casual, hybridcasual).
+Calculate concentration ratios (Top 5/10 share, HHI).
 
-####Map publisher revenue by country.
+Analyze sub-genre splits and product models (Mid-core, casual, hybridcasual).
 
-####Correlate release date vs. revenue
+Map publisher revenue by country.
 
+Correlate release date vs. revenue
 
-###3. Visualization Concepts
 
-####Bar charts: Top 10 apps/publishers.
+3. Visualization Concepts
 
-####Treemap/Pie: Sub-genre & category splits.
+Bar charts: Top 10 apps/publishers.
 
-####Stacked bars: Product model contribution.
+Treemap/Pie: Sub-genre & category splits.
 
-####Geo maps: Publisher country revenues.
+Stacked bars: Product model contribution.
 
-####Scatter plots: Release year vs revenue (bubble size = downloads).
+Geo maps: Publisher country revenues.
 
-####KPI cards: Total revenue, Top 5/10 share, HHI
+Scatter plots: Release year vs revenue (bubble size = downloads).
 
+KPI cards: Total revenue, Top 5/10 share, HHI
 
-##📈 Key Findings & Insights (from PPT)
-###Top Games & Publishers
 
-####Honor of Kings dominates with $1.47B (~50% higher than the next).
+📈 Key Findings & Insights (from PPT)
+Top Games & Publishers
 
-####Royal Match & Whiteout Survival both near $1B.
+Honor of Kings dominates with $1.47B (~50% higher than the next).
 
-####Tencent is the clear market leader with $2.7B (2.5x next publisher).
+Royal Match & Whiteout Survival both near $1B.
 
-####Steep concentration gap: Tencent alone ≈ rest of Top 9 combined
+Tencent is the clear market leader with $2.7B (2.5x next publisher).
 
-###Genre & Monetization Trends
+Steep concentration gap: Tencent alone ≈ rest of Top 9 combined
 
-####4X Strategy leads at $4.32B (33% of market).
+Genre & Monetization Trends
 
-####Match Swap (puzzle/match-3) second at $3.37B (25%).
+4X Strategy leads at $4.32B (33% of market).
 
-####Casual: dominated by Puzzle & Slots.
+Match Swap (puzzle/match-3) second at $3.37B (25%).
 
-####Mid-core: driven by 4X, MOBA, RPG.
+Casual: dominated by Puzzle & Slots.
 
-####Hybridcasual: evolving, with Squad RPG + puzzle mechanics
+Mid-core: driven by 4X, MOBA, RPG.
 
-###Market Performance
+Hybridcasual: evolving, with Squad RPG + puzzle mechanics
 
-####Top 5 games = only 14.4% of total revenue → long tail is significant.
+Market Performance
 
-####5B downloads generated $36.6B → ~$7.3 revenue per download.
+Top 5 games = only 14.4% of total revenue → long tail is significant.
 
-####COVID era spike (2020–22), with 2025 hitting highest-ever revenue (~$5B)
+5B downloads generated $36.6B → ~$7.3 revenue per download.
 
-###Regional Dynamics
+COVID era spike (2020–22), with 2025 hitting highest-ever revenue (~$5B)
 
-####Asia = largest market in both revenue & downloads.
+Regional Dynamics
 
-####North America = higher ARPU, strong monetization efficiency.
+Asia = largest market in both revenue & downloads.
 
-####Europe = fragmented, with opportunities in smaller studios
+North America = higher ARPU, strong monetization efficiency.
 
+Europe = fragmented, with opportunities in smaller studios
 
-##🧭 Strategic Recommendations for BD
 
-###High-Value Partners & Genres
+🧭 Strategic Recommendations for BD
 
-###Prioritize Chinese mid-core developers (4X, RPG, MOBA).
+High-Value Partners & Genres
 
-###Engage casual leaders (puzzle, slots).
+Prioritize Chinese mid-core developers (4X, RPG, MOBA).
 
-###Watch hybridcasual innovators for breakout hits.
+Engage casual leaders (puzzle, slots).
 
-###Geographic Focus
+Watch hybridcasual innovators for breakout hits.
 
-###Anchor in Asia for scale.
+Geographic Focus
 
-###Leverage North America for high ARPU.
+Anchor in Asia for scale.
 
-###Scout Europe for co-dev partnerships.
+Leverage North America for high ARPU.
 
-###Portfolio Balance Strategy
+Scout Europe for co-dev partnerships.
 
-###Mid-core = revenue anchor.
+Portfolio Balance Strategy
 
-###Casual = mass-market installs.
+Mid-core = revenue anchor.
 
-###Hybridcasual = growth frontier.
+Casual = mass-market installs.
 
-###IP-driven Growth
+Hybridcasual = growth frontier.
 
-###Licensing & co-dev with anime, sports, entertainment IPs.
+IP-driven Growth
 
-###Long-Term Bets
+Licensing & co-dev with anime, sports, entertainment IPs.
 
-###Early partnerships in LATAM & Africa.
+Long-Term Bets
 
-###Cross-genre innovations (e.g., Puzzle + RPG, Survival + Casual)
+Early partnerships in LATAM & Africa.
+
+Cross-genre innovations (e.g., Puzzle + RPG, Survival + Casual)
