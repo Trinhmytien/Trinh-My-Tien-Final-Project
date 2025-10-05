@@ -87,29 +87,9 @@ Kết quả dự án giúp đội ngũ BD có cái nhìn định lượng rõ r�
 
 ## 🛠️ Công nghệ sử dụng
 - **Python:** Pandas, NumPy, Matplotlib, Seaborn  
-- **Power BI:** DAX, KPI Card, Trendline, Map, Clustered Chart  
+- **Power BI:** DAX, Bar & Line chart, Scatter Chart  
 - **Google Colab:** EDA, Data Cleaning  
 - **PowerPoint:** Storytelling & Presentation  
 
 ---
 
-## 📁 Cấu trúc thư mục đề xuất
-```
-📦 AppStore_Revenue_Analysis
- ┣ 📂 data_raw/           # Dữ liệu gốc từ Sensor Tower (.tsv)
- ┣ 📂 data_clean/         # Dữ liệu sau khi làm sạch (.csv)
- ┣ 📂 notebooks/          # File Colab .ipynb
- ┣ 📂 dashboard/          # File Power BI (.pbix)
- ┣ 📂 report/             # Proposal & PPT
- ┣ README.md              # Tài liệu mô tả dự án
-```
-
----
-
-## 👩‍💻 Tác giả
-**Trịnh Mỹ Tiên**  
-*Data Analyst | Business Development (Game Publishing)*  
-📧 Email: [your_email@example.com]  
-🔗 LinkedIn: [linkedin.com/in/yourprofile](#)
-
----
